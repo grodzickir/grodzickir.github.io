@@ -9,7 +9,7 @@ version: 2
 name: Ryszard Grodzicki
 title: Kotlin Developer
 email: grodzicki.ryszard@gmail.com
-# website: www.github.com/sproogen/resume-theme
+website: https://newsletter.kotlindev.net/
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -52,9 +52,9 @@ about_content: | # this will include new lines to allow paragraphs
   
   I'm a Kotlin enthusiast and I really enjoy sharing knowledge about Kotlin and promoting it among developers, especially Java developers.
   
-  If you're interested in Kotlin and it's capabilities then sign up to <strong>my newsletter</strong>: https://newsletter.kotlindev.net/
+  If you're interested in Kotlin and it's capabilities then sign up to <a href="https://newsletter.kotlindev.net/"><strong>my newsletter</strong></a>
 
-  I am most skilled in: <mark>Kotlin</mark> and <mark>React</mark>
+  I am most skilled in: <mark>Kotlin</mark> and <mark>Spring</mark> with some <mark>React</mark> skills too
 
 content:
   - title: Experience # Title for the section
@@ -62,21 +62,42 @@ content:
     content:
       - layout: left
         title: Mercedes-Benz Leasing Polska
-        sub_title: Kotlin Developer
+        sub_title: Fullstack Developer (Kotlin + React)
         caption: September 2018 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+            Creating system for leasing or credit granting for Mercedes-Benz cars. It's stuffed with integrations and automates work for many people in the company - from the sales staff to management.
       - layout: left
         title: Plenti
         sub_title: React Developer
         caption: May 2020 - Present
         link: https://plenti.app/pl/discover
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+        description: |
+            Helping create frontend for web app allowing to lend electronic hardware like gaming consoles, vr goggles, laptops etc. It's available throughout Poland and let's you lend the stuff for as short as few hours or as long as a year or more.
+      - layout: left
+        title: KartGis
+        sub_title: Java/Android Developer
+        caption: October 2017 - August 2018
+        description: |
+            Developing backend, web frontend and Android app for waterworks and sewerage companies all around Poland. All with multiple features, per-client customizations and data integrations.
+      - layout: left
+        title: Comarch
+        sub_title: Java Developer
+        caption: February 2017 - September 2017
+        description: |
+            Expanding and maintaining software for Polish judical system.
+      - layout: left
+        title: Netsprint
+        sub_title: Java Developer
+        caption: March 2016 - February 2017
+        description: |
+            Improving in-house engine for matching advertisements with users based on previously visited websites. Learned writing code with both execution speed and readability in mind.
+      - layout: left
+        title: Infovide-Matrix
+        sub_title: Java Developer
+        caption: April 2015 - March 2016
+        description: |
+            Firstly, as an intern 3 months were designated only for learning all of the practical development tools - version control system, build and deployment tools, project management software. Then worked on serious project in telecommunication industry.
+
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -86,11 +107,9 @@ content:
         caption: 2013 - 2017
         sub_title: Eng. Computer Science
         quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+          WUT is one of the best technical universities in Poland
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+          I've learnt not only programming here, but also everything around it - a bit of electronics, quite a lot of math, but maybe even more important skills - teamwork and some basic project management.
 
   - title: In my free time
     layout: text
